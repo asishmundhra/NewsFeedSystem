@@ -57,4 +57,3 @@ Further it reads & extracts security code of individual news from the symbols.pi
 - Give the date as an input given in the specified format(mm/dd/yyyy), to retrieve all the news stories published on the same day in JSON format .
 - Deactivate the environment after the process by typing `deactivate` in command prompt .
 
-## Thank You
