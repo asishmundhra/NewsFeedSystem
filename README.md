@@ -44,9 +44,9 @@ Further it reads & extracts security code of individual news from the symbols.pi
 - `cd` to the API directory eg. cd server .
 - Create an environment:
    - For macOS or Linux: `pip install virtualenv`
-      - Now in which ever directory you are, this line below will create a virtualenv there : `virtualenv virtualenv_name`
+      - This line will create a virtualenv : `virtualenv virtualenv_name`
    - For windows:  `pip install virtualenv`
-      - Now in which ever directory you are, this line below will create a virtualenv there : `virtualenv myenv`
+      - This line will create a virtualenv : `virtualenv myenv`
 - Activate the Flask-python environment by:
    - For macOS or Linux: `source virtualenv_name/bin/activate`
    - For windows: `myenv\Scripts\activate`
