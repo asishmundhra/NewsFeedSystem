@@ -2,8 +2,7 @@
 The objective is to design and develop small working prototype of centralized newsfeed system.
 ## Description
 A simple newsfeed management system that takes a text file containing the URL of news sites . 
-Further it reads & extracts security code of individual news from the symbols.pickel file & stores 
-these feeds as JSON files by date.
+Further it reads & extracts security code of individual news from the symbols.pickle file & stores these feeds as JSON files by date.
 - Loop through symbols.pickle file & create a link by extracting security code from each row .
 - Extracts article link from that URL
 - Parses these links through Newspaper3k API
@@ -15,7 +14,7 @@ these feeds as JSON files by date.
   - summary - article summary 
   - title - story title 
   - keywords - article keywords 
-  - company_code - security code extracted from pickle file    
+  - company_code - security code extracted from symbols.pickle file    
   - company_name - comapany full name          
   - source - newspaper (give abbreviations to newspaper)  
   - story_date - extract story date from article  
@@ -34,7 +33,7 @@ these feeds as JSON files by date.
 5. Articles captured on a specific date can be retrieved.
 
 ## Contents
-- `main.py` - to scrape the details from a given list of articles or news-websites
+- `scraper.py` - to scrape the details from a given list of articles or news-websites
 - `article.json` - gives all the scraped details in .json format
 - `server/requirement.txt` - contains all the packages required to be installled, to run the program.
 - `server/db.py` - connects the API to MongoDB cluster

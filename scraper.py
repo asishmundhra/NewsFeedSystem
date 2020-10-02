@@ -133,7 +133,7 @@ def scrollFunction(link, companycode):
 object = pd.read_pickle('./symbols.pickle')
 company_code_arr = []
 # 300
-for i in range(300, 320):
+for i in range(0, 504):
     companyObj = {}
     companyObj["code"] = object.symbol[i]
     companyObj["name"] = object.company[i]
