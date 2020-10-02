@@ -52,8 +52,8 @@ Further it reads & extracts security code of individual news from the symbols.pi
    - For windows: `myenv\Scripts\activate`
 - In the same environment, install all the packages specified in the requirement.txt file.
 - Run `python main.py` to start the server .
-- Open the browser and go to `http://localhost:8080/?date=mm/dd/yyyy` .
-   Eg: `http://localhost:8080/?date=09/22/2020` outputs all the articles published on 09/22/2020 .
-- Give the date as an input given in the specified format(mm/dd/yyyy), to retrieve all the news stories published on the same day in JSON format .
+- Open the browser and go to `http://localhost:8080/?date=mm/dd/yy` .
+   Eg: `http://localhost:8080/?date=09/14/20` outputs all the articles published on 09/14/20 .
+- Give the date as an input given in the specified format(mm/dd/yy), to retrieve all the news stories published on the same day in JSON format .
 - Deactivate the environment after the process by typing `deactivate` in command prompt .
 
